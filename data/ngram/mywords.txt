@@ -1,0 +1,10 @@
+good
+bad
+right
+left
+rich
+poor
+modern
+old
+car
+horse

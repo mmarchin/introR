@@ -1,0 +1,9 @@
+peaks	alias
+../data/macs_pval1e-10/bdk16_ra9.5_m2flag_peaks.bed	bdk16_ra9.5
+../data/macs_pval1e-10/bdk16_ra24_hoxb1_peaks.bed	bdk16_ra24_hoxb1
+../data/macs_pval1e-10/bdk20_hoxb1_hf26_aflag_peaks.bed	bdk20_hoxb1_hf26_aflag
+../data/macs_pval1e-10/bdk22_hoxb1_3fms_myc_m2flag_ip_peaks.bed	bdk22_hoxb1_3fms_myc_m2flag_ip
+../data/macs_pval1e-10/bdk22_hoxb1_3fms_myc_myc_ip_peaks.bed	bdk22_hoxb1_3fms_myc_myc_ip
+../data/macs_pval1e-10/bdk22_hoxb1_hf_m2flag_ip_peaks.bed	bdk22_hoxb1_hf_m2flag_ip
+../data/macs_pval1e-10/bdk22_hoxb1_ip_9.5_peaks.bed	bdk22_hoxb1_ip_9.5
+../data/macs_pval1e-10/bdk22_pbx_m2flag_peaks.bed	bdk22_pbx_m2flag
