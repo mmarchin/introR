@@ -1,0 +1,7 @@
+ChIP-seq of neural stem cells with sox2 antibody (y-17, sc-17320).
+
+36 base, single.
+ERR015312.fastq.bz2 is sox2,
+
+
+ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/fastq/ERA009/ERA009089/ERX005683
