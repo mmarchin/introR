@@ -1,8 +1,0 @@
-library(ChIPpeakAnno)
-d<-read.table("sox2_era_peaks.bed",skip=1,sep='\t',as.is=T)
-rd<-BED2RangedData(d)
-data(TSS.mouse.NCBIM37)
-annotatedPeak<-annotatePeakInBatch(rd,AnnotationData=TSS.mouse.NCBIM37)
-df<-as.data.frame(annotatedPeak)
-df2<-data.frame(d,df[match(d[,4],df[,6]),])
-write.table(df,"annotated_peaks.txt",quote=F,row.names=F,sep='\t')
