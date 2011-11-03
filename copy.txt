@@ -5,6 +5,7 @@ dir.create("H:/introR")
 file.copy(from="U:/mcm/presentations/CompTools/introR/data",to="H:/introR",recursive=T)
 file.copy(from="U:/mcm/presentations/CompTools/introR/code/code.R",to="H:/introR")
 file.copy(from="U:/mcm/presentations/CompTools/introR/introR.docx",to="H:/introR")
+setwd("H:/introR")
 
 
 ############
@@ -17,3 +18,4 @@ dir.create("/Volumes/HOME/introR")
 file.copy(from="/Volumes/projects/mcm/presentations/CompTools/introR/data",to="/Volumes/HOME/introR",recursive=T)
 file.copy(from="/Volumes/projects/mcm/presentations/CompTools/introR/code/code.R",to="/Volumes/HOME/introR/code.R")
 file.copy(from="/Volumes/projects/mcm/presentations/CompTools/introR/introR.docx",to="/Volumes/HOME/introR/")
+setwd("/Volumes/HOME/introR")
