@@ -1,4 +1,13 @@
 name	ucsc_name	chroms_contigs	size
+Sea hare	aplCal1	8767	715806041
+Yeast	sacCer3	17	12157105
+C. elegans	ce6	7	100281426
+Mosquito	anoGam1	7	287805703
+D. pseudoobscura	dp3	17	141079253
+D. erecta	droEre1	5124	152862534
+D. yakuba	droYak2	21	168663877
+D. simulans	droSim1	18	142420719
+D. melanogaster	dm3	15	168736537
 Human	hg18	49	3107677273
 Chimp	panTro2	52	3350447512
 Gorilla	gorGor1	609861	2323645895
