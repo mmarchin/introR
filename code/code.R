@@ -42,12 +42,12 @@ n <- 7.45
 ###########################
 # 4. Vectors
 ###########################
-c(1,3,6,13,8)
-x <- c(1,3,6,13,8)
+c(1,3,6,8,13)
+x <- c(1,3,6,8,13)
 x
 
 #create another vector, y.
-y <- c(2,5,4,12,7)
+y <- c(2,5,4,7,12)
 y
 
 x[5]
@@ -85,6 +85,14 @@ plot(x,y)
  
 #note, the type="l" below is a lowercase L for line, not the number 1.
 plot(x,y,type="l")
+
+#plot() is a function, which can take many arguments. The arguments you give to plot will determine how the plot looks.
+plot(x,y,col="blue")
+plot(x,y,main="x vs. y")
+plot(x,y,main="x vs. y", col="blue", pch=20)
+plot(x,y,main="x vs. y", ylab="y label", xlab="x label", type="b", col="red")
+?plot
+?par
  
 ###########################
 # 5. Data from Files
@@ -313,7 +321,7 @@ heatmap(as.matrix(selected[1:1000,]), cexCol=.6, cexRow=.3)
  
 #change the colors
 cols <- brewer.pal(9,"Blues")
-heatmap(as.matrix(selected[1:1000,]), col="blue", cexCol=.6, cexRow=.3)
+heatmap(as.matrix(selected[1:1000,]), col=cols, cexCol=.6, cexRow=.3)
  
 highest500.iv <- order(-rowMeans(selected))[1:500]
 heatmap(as.matrix(selected[highest500.iv,]),col=cols,cexCol=.6,cexRow=.3)
